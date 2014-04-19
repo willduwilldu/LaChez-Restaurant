@@ -1,0 +1,588 @@
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../font/HelveticaNeueLTCom-BdCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica-Normal';
+  src: url('../font/HelveticaNeueLTCom-LtCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  color: #75000e;
+}
+a:link {
+  color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #262626;
+  text-decoration: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica-Normal", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  background-color: #000000;
+  position: relative;
+}
+nav#topnav {
+  text-align: center;
+  background: url('../images/pattern-white.png') repeat;
+  height: 55px;
+  padding: 4px 0;
+}
+nav#topnav ul {
+  height: 48px;
+  border-top: solid 1px #75000e;
+  border-bottom: solid 1px #75000e;
+}
+nav#topnav ul li.spacing {
+  padding: 0 5%;
+}
+nav#topnav ul li {
+  display: inline;
+}
+nav#topnav ul li a {
+  height: 40px;
+  display: inline-block;
+  padding-top: 16px;
+  font-family: "Helvetica-Normal", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.375em;
+  font-stretch: condensed;
+  color: #666666;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s;
+}
+nav#topnav ul li a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+nav#topnav ul li .nav-context {
+  border-bottom: solid 3px #75000e;
+}
+header#intro {
+  background-image: url('../images/cover-steak.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 375px;
+}
+header#intro .container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+header#intro .container h1 {
+  background: url('../images/logos/logo-main.svg') no-repeat;
+  height: 169px;
+  width: 335px;
+  text-indent: -9999px;
+  margin: 93px auto 0 auto;
+}
+section#main-content {
+  background: url('../images/pattern-beige.png') repeat;
+  height: 100%;
+  padding: 22px 0 50px 0;
+  overflow: hidden;
+}
+section#main-content .container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #75000e;
+}
+section#main-content .container .featured-container {
+  width: 618px;
+  float: left;
+  height: 100%;
+  padding: 10px;
+  overflow: hidden;
+}
+section#main-content .container .featured-container .featured-dish {
+  background: url('../images/seafood-pasta-dish.jpg') no-repeat;
+  height: 445px;
+  margin-bottom: 10px;
+  padding: 19px 19px 0 0;
+}
+section#main-content .container .featured-container .featured-dish h2 {
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 3.125em;
+  color: #f2f2f2;
+  display: block;
+  width: 360px;
+  float: right;
+  line-height: 60px;
+  text-align: right;
+}
+section#main-content .container .featured-container .featured-description {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+section#main-content .container .featured-container .featured-description h3 {
+  font-size: 1.25em;
+  font-family: "Helvetica-Normal", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  color: #75000e;
+  text-align: right;
+  padding-bottom: 3px;
+}
+section#main-content .container .featured-container .featured-description p {
+  font-size: .75em;
+  text-align: right;
+}
+section#main-content .container .specials-container {
+  float: left;
+  width: 340px;
+  border-left: 1px solid #75000e;
+  border-bottom: 1px solid #75000e;
+  padding: 10px;
+}
+section#main-content .container .specials-container .specials-menu {
+  padding: 10px;
+  position: relative;
+  background-color: #e0d8c3;
+}
+section#main-content .container .specials-container .specials-menu h2 {
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 1.25em;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 3px;
+}
+section#main-content .container .specials-container .specials-menu img.arrow-right {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+section#main-content .container .specials-container .specials-menu ul li {
+  padding: 12px 0;
+}
+section#main-content .container .specials-container .specials-menu ul li h3 {
+  padding-bottom: 5px;
+}
+section#main-content .container .specials-container .specials-menu ul li h3 a.menu {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.125em;
+}
+section#main-content .container .specials-container .specials-menu ul li p {
+  font-size: .75em;
+}
+section#main-content .container .specials-container .specials-menu a.view-menu {
+  display: block;
+  background-color: #75000e;
+  width: 117px;
+  height: 32px;
+  margin: 0 auto 7px auto;
+  text-align: center;
+  padding-top: 11px;
+  text-transform: uppercase;
+  font-size: .75em;
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  position: relative;
+}
+section#main-content .container .specials-container .specials-menu a.view-menu img {
+  position: absolute;
+  right: -12px;
+  top: 0;
+}
+section#main-content .container .connect-with-us {
+  float: left;
+  width: 340px;
+  padding: 20px;
+  height: 222px;
+  border-left: 1px solid #75000e;
+}
+section#main-content .container .connect-with-us h2 {
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: 1.25em;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 3px;
+}
+section#main-content .container .connect-with-us p {
+  font-size: .75em;
+  padding: 13px 0;
+}
+section#main-content .container .connect-with-us form {
+  margin: 0 auto;
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: .75em;
+}
+section#main-content .container .connect-with-us form input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-style: none;
+  width: 300px;
+  height: 25px;
+  display: block;
+  margin: 7px auto;
+}
+section#main-content .container .connect-with-us form input.submit {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 162px;
+  height: 25px;
+  background-color: #75000e;
+  color: #f2f2f2;
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  padding-top: 6px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+section#main-content .container .connect-with-us ul.smi-icons {
+  display: block;
+  text-align: center;
+}
+section#main-content .container .connect-with-us ul.smi-icons li {
+  display: inline;
+  padding: 5px;
+}
+footer {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  font-family: "Helvetica-Normal", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  letter-spacing: 5px;
+  font-size: .625em;
+  text-align: center;
+  height: 22px;
+  padding-top: 8px;
+}
+.bg-main {
+  height: 100%;
+  padding-bottom: 10%;
+  background-color: #000;
+  background-image: url('../images/cover-pork.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 25px;
+  opactiy: 0.5;
+}
+.bg-main h1.logo-small {
+  background: url('../images/logos/logo-small.svg') no-repeat;
+  background-position: center;
+  height: 66px;
+  width: 147px;
+  padding: 25px 0;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+.bg-main section#content {
+  width: 620px;
+  margin: 25px auto 0 auto;
+  background-color: #f2f2f2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 25px 35px;
+  overflow: hidden;
+}
+.bg-main section#content h2 {
+  font-size: 1.5em;
+  color: #75000e;
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  border-bottom: 1px dotted #000;
+  clear: both;
+  display: block;
+  margin-bottom: 10px;
+}
+.bg-main section#content h2.margin-top {
+  margin-top: 30px;
+}
+.bg-main section#content p {
+  padding-top: 15px;
+  font-size: 1em;
+}
+.bg-main section#content .menu-item {
+  width: 265px;
+  display: inline-block;
+  padding: 10px 0 5px 0;
+}
+.bg-main section#content .menu-item h3 {
+  background-color: #75000e;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  padding: 10px 0 0 5px;
+}
+.bg-main section#content .menu-item p {
+  background-color: #75000e;
+  color: #f2f2f2;
+  padding: 5px 5px 8px 5px;
+  font-size: .8em;
+}
+.bg-main section#content .float-right {
+  float: right;
+}
+.bg-main section#content .special-item {
+  clear: both;
+  width: 550px;
+  height: 214px;
+  background-color: #75000e;
+  color: #f2f2f2;
+  margin: 30px auto 0 auto;
+}
+.bg-main section#content .special-item .special-description {
+  width: 270px;
+  padding: 0 10px 5px 10px;
+  display: inline-block;
+}
+.bg-main section#content .special-item p.try-our-new {
+  padding-bottom: 10px;
+  text-align: right;
+  font-size: 1.5em;
+}
+.bg-main section#content .special-item h3 {
+  text-align: right;
+  font-size: 2.2em;
+}
+.bg-main section#content .special-item p.description {
+  font-size: 1em;
+}
+.bg-main section#content .special-item p.limited-time {
+  padding-top: 15px;
+  text-align: right;
+}
+.bg-main section#content .special-item img {
+  float: right;
+}
+.bg-main section#content form {
+  margin: 25px auto;
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-size: .75em;
+}
+.bg-main section#content form label {
+  float: left;
+  margin-bottom: 10px;
+}
+.bg-main section#content form label input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-style: none;
+  display: block;
+  width: 240px;
+  height: 25px;
+  margin: 7px 30px 7px 0;
+}
+.bg-main section#content form label textarea {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-style: none;
+  display: block;
+  width: 550px;
+  height: 181px;
+  margin: 7px 0;
+}
+.bg-main section#content form input.submit {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 162px;
+  height: 25px;
+  background-color: #75000e;
+  color: #f2f2f2;
+  font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  padding-top: 6px;
+  cursor: pointer;
+  border: none;
+  float: right;
+}
+.bg-main section#content ul.smi-icons {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+}
+.bg-main section#content ul.smi-icons li {
+  display: inline;
+  padding: 0 5px;
+  float: left;
+}
+.bg-main section#content p.smi {
+  padding: 7px 0 0 10px;
+  display: block;
+  float: left;
+}
+@media only screen and (max-width: 959px) and (min-width: 320px) {
+  section#main-content {
+    width: 100%;
+    padding: 0;
+  }
+  section#main-content .container {
+    border: none;
+    width: 100%;
+  }
+  section#main-content .container .featured-container {
+    width: 100%;
+  }
+  section#main-content .container .featured-container .featured-dish {
+    background-size: cover;
+    background-position: center;
+  }
+  section#main-content .container .featured-container .featured-dish h2 {
+    text-align: right;
+    float: none;
+    width: 100%;
+    font-size: 2.8em;
+  }
+  section#main-content .container .featured-container .featured-description h3 {
+    font-size: 1.5em;
+  }
+  section#main-content .container .featured-container .featured-description p {
+    font-size: 1em;
+  }
+  section#main-content .container .specials-container {
+    border-top: 30px solid #75000e;
+    border-left: none;
+    width: 100%;
+  }
+  section#main-content .container .specials-container .specials-menu ul li h3 {
+    font-size: 1.3em;
+  }
+  section#main-content .container .specials-container .specials-menu ul li p {
+    font-size: 1em;
+  }
+  section#main-content .container .connect-with-us {
+    width: 100%;
+    border-top: 30px solid #75000e;
+    border-left: none;
+    height: 100%;
+  }
+  section#main-content .container .connect-with-us p {
+    font-size: 1em;
+  }
+  section#main-content .container .connect-with-us form {
+    font-size: 1em;
+  }
+  section#main-content .container .connect-with-us form input {
+    max-width: 95%;
+    height: 40px;
+    font-size: 1.5em;
+  }
+  section#main-content .container .connect-with-us form input.submit {
+    margin: 0 auto;
+    float: none;
+    display: block;
+    height: 44px;
+  }
+  section#main-content .container .connect-with-us ul.smi-icons {
+    margin-top: 20px;
+  }
+  .bg-main section#content {
+    width: 80%;
+  }
+  .bg-main section#content .container .menu-item {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+  }
+  .bg-main section#content .container .menu-item h3 {
+    font-family: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 1.5em;
+  }
+  .bg-main section#content .container .menu-item p {
+    line-height: 20px;
+    font-size: 1em;
+  }
+  .bg-main section#content .container .menu-item img {
+    display: none;
+  }
+  .bg-main section#content .container .special-item {
+    width: 100%;
+  }
+  .bg-main section#content .container .special-item .special-description {
+    width: 50%;
+  }
+  .bg-main section#content .container .special-item h3 {
+    text-align: right;
+    font-size: 2.8em;
+  }
+  .bg-main section#content .container .special-item p.limited-time {
+    display: none;
+  }
+  .bg-main section#content .container .special-item img {
+    height: 100%;
+    width: 48%;
+  }
+  .bg-main section#content .container .float-right {
+    float: none;
+  }
+  .bg-main section#content form {
+    font-size: 1em;
+  }
+  .bg-main section#content form label {
+    float: none;
+    display: block;
+    padding: 10px 0;
+  }
+  .bg-main section#content form label input {
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+  }
+  .bg-main section#content form label textarea {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .bg-main section#content form input.submit {
+    margin: 0 auto;
+    float: none;
+    display: block;
+    height: 44px;
+  }
+  .bg-main section#content ul.smi-icons {
+    padding-left: 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 170px;
+  }
+  .bg-main section#content ul.smi-icons li {
+    padding: 0 15px;
+  }
+  .bg-main section#content p.smi {
+    display: none;
+  }
+}
+@media only screen and (max-width: 630px) and (min-width: 320px) {
+  .bg-main section#content {
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .bg-main section#content .container .special-item h3 {
+    font-size: 3.2em;
+  }
+  p.description {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .bg-main section#content .container .special-item h3 {
+    font-size: 2.2em;
+  }
+  .bg-main section#content .container .special-item p.description {
+    display: none;
+  }
+}

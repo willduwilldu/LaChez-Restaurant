@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../font/HelveticaNeueLTCom-BdCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica-Normal';
+  src: url('../font/HelveticaNeueLTCom-LtCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  color: #75000e;
+}
+a:link {
+  color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #262626;
+  text-decoration: none;
+}

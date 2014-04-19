@@ -1,0 +1,53 @@
+
+// Fonts 
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../font/HelveticaNeueLTCom-BdCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Normal';
+  src: url('../font/HelveticaNeueLTCom-LtCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@bodyfont: "Helvetica-Normal", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+@headingsfont: "Helvetica-Bold", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+
+// Colors
+
+@red: #75000e;
+@darkgrey: #666666;
+@white: #f2f2f2;
+@beige: #e0d8c3;
+@black: #1a1a1a;
+@darkblack: #000000;
+
+// Styles
+
+@font-weight: 400;
+@regular: normal;
+@condensed: condensed;
+@uppercase: uppercase;
+
+h2 {
+  color: @red;
+}
+
+
+a:link {
+        color: @darkgrey; 
+        text-decoration: none;
+}
+a:hover {
+        color: @darkblack;
+        text-decoration: none;
+}
+a:visited {
+        color: darken(@darkgrey, 25%);
+        text-decoration: none;
+}
